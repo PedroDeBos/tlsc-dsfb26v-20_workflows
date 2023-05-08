@@ -117,20 +117,20 @@ Maybe ~~videotape~~ tiktok-record your process and add .mp4 to your paper? Type 
 
 To replicate a scientific study we need at least:
 
-- **Context** Scientific context! Research questions, related publications.. [<mark>P<mark/>]
-- **Methods** Exactly how the data was gathered [<mark>P</mark>, _D_, <mark>C</mark>]
+- **Context** Scientific context! Research questions, related publications.. [P]
+- **Methods** Exactly how the data was gathered [P, D, C]
     + In what model or population? (e.g. some cell line, some knockout mouse etc)
     + *Exact* (experimental) design of the study
-- **Data** Actually the raw data itself, to check if you find something similar [<mark>D</mark>] 
-- **Meta data** which is data about the data. For instance who gathered it, when, where, licence information, keywords...)[<mark>D</mark>, _C_] 
-- **Data analysis** All steps in data analysis [_P_, <mark>C</mark>]
+- **Data** Actually the raw data itself, to check if you find something similar [D] 
+- **Meta data** which is data about the data. For instance who gathered it, when, where, licence information, keywords...)[D, C] 
+- **Data analysis** All steps in data analysis [P, C]
     + Exploratory data analysis of the data 
     + data mangling decisisons, such as fitering and outlier selection
     + Which inductive statistical tests or inference was done and how.
-- **Interpretation** How the data was interpreted [<mark>P</mark>, _C_]
+- **Interpretation** How the data was interpreted [P, C]
     + All choices made in the interpretation of the data (there is usually not one possible way to interpret results..)
     + Conclusions and academic scoping of the results
-- **Access to all of the above!** [<mark>OAcc, OSrc</mark>]
+- **Access to all of the above!** [OAcc, OSrc]
 
 <p style="font-size:14px">$P = Publication$, $D = Data$, $C = Code$, $OAcc = Open\ Access$, $OSrc = Open\ Source$ </p>
 
@@ -138,16 +138,16 @@ So we can conclude that:
 
 $Reproducible\ (Open)\ Science = P + D + C + OAcc + OSrc$
 
-<!--  > - Scientific context, research questions and state of the art [<mark>P<mark/>] -->
-<!--  > - (Experimental) model or characteristics of population or matter studied [<mark>P</mark>] -->
-<!--  > - Data that was generated and corresponding meta data [<mark>D</mark>, _C_] -->
-<!--  > - **Exact** (experimental) design of the study [<mark>P</mark>, _D_, <mark>C</mark>] -->
-<!--  > - Exploratory data analysis of the data [_P_, <mark>C</mark>] -->
-<!--  > - **Exact** methods that were used to conduct any formal inference [_P_, <mark>C</mark>] -->
-<!--  > - Model diagnostics [_C_] -->
-<!--  > - Interpretations of the (statistical) model results/model fitting process [_P_, _C_] -->
-<!--  > - Conclusions and academic scoping of the results [<mark>P</mark>, _C_] -->
-<!--  > - **Access to all of the above** [<mark>OAcc, OSrc</mark>] -->
+<!--  > - Scientific context, research questions and state of the art [P] -->
+<!--  > - (Experimental) model or characteristics of population or matter studied [P] -->
+<!--  > - Data that was generated and corresponding meta data [D, C] -->
+<!--  > - **Exact** (experimental) design of the study [P, D, C] -->
+<!--  > - Exploratory data analysis of the data [P, C] -->
+<!--  > - **Exact** methods that were used to conduct any formal inference [P, C] -->
+<!--  > - Model diagnostics [C] -->
+<!--  > - Interpretations of the (statistical) model results/model fitting process [P, C] -->
+<!--  > - Conclusions and academic scoping of the results [P, C] -->
+<!--  > - **Access to all of the above** [OAcc, OSrc] -->
 
 <!-- <p style="font-size:14px">$P = Publication$, $D = Data$, $C = Code$, $OAcc = Open\ Access$, $OSrc = Open\ Source$ </p>  -->
 
@@ -294,7 +294,7 @@ We will practice this a bit and see this happening live in an exercise
  1. Look at this article in the Microsoft help: https://support.microsoft.com/en-us/office/stop-automatically-changing-numbers-to-dates-452bd2db-cc96-47d1-81e4-72cec11c4ed8
  1. Change the column `Example Gene Name Conversion` in the file 
 [here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7#Sec1). to text. 
- 1. Change the column named `GENE SYMBOL` in [this file](http://genesdev.cshlp.org/content/suppl/2009/11/03/23.21.2484.DC2/Bilodeau_Supp_Table_11.xls) to text.
+ 1. Change the column named `GENE SYMBOL` in [this file](http://genesdev.cshlp.org/content/suppl/2009/11/03/23.21.2484.DC2/Bilodeau_Supp_Table_11.xls) to text. (from the previous exercise)
  1. Now try to find the wrongly converted gene called `40059` in this data file
  1. On the basis of your observations in this exercise: what are your conclusions about using Excel. How could you make the use of Excel _safer_ for data collection and analysis? What would you recommend your peers? Write (in Rmd) a short recommendation on the safe use of Excel for data collection (min 200 words). Keep this advice around! If you plan on being the person at a lab that "is quite good with data" or helps out with data analysis, you *will* use this in the future.
 
@@ -757,3 +757,7 @@ resource: https://www.researchgate.net/publication/340244621_Reproducibility_and
 https://www.displayr.com/what-is-reproducible-research/
 
 https://book.fosteropenscience.eu/en/02OpenScienceBasics/04ReproducibleResearchAndDataAnalysis.html
+
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Unless it was borrowed (there will be a link), in which case, please use their license.
+

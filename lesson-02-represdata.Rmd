@@ -561,7 +561,7 @@ This is an overview of all datafiles in a project.
 
 Keep an MS Excel file (called "data_log.xlsx") in the root of the folder `\data` of each project and keep it up to date to track all the files present in this folder. Provide names and additional information here. Meta information for the `\data_raw` folder is best kept in that folder in a `README.txt` file.
 
-Use versioning of data files. Decide on a versioning system for yourself (we showed you an exampole before, but you are free to look for other options), an stick to it.
+Use versioning of data files. Decide on a versioning system for yourself (we showed you an example before, but you are free to look for other options), an stick to it.
 
 ### Annotations and meta data in multiple files
 Some metadata is most useful if you have it available in the code directly.
@@ -996,3 +996,6 @@ For the projecticum folder, make sure you do this together with your lab partner
  - [Guerrilla Analytics](https://guerrilla-analytics.net/the-principles/)
  - [Guerrilla Analytics 'slides'](https://www.slideshare.net/guerrillaanalytics/2014-10-newcastle-university-02web)
  - [F1000 'Preparing your data for sharing'](https://f1000research.com/for-authors/data-guidelines#prepareyourdata)
+
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Unless it was borrowed (there will be a link), in which case, please use their license.
